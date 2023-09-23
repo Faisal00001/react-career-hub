@@ -22,7 +22,7 @@ const FeaturedJobs = () => {
             </div>
             <div className={dataLength === jobs.length && 'hidden'}>
                 <button onClick={() => setDataLength(jobs.length)}
-                    className="btn btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">Show All Jobs</button>
+                    className="btn  bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">Show All Jobs</button>
             </div>
 
         </div>

@@ -10,7 +10,7 @@ const JobDetails = () => {
     const job = jobs.find(job => job.id === idInt);
     const { job_description, job_responsibility, educational_requirements, experiences } = job
     const handleApplyJob = () => {
-        saveJobApplication(id)
+        saveJobApplication(idInt)
         toast("You have applied successfully")
     }
     return (
